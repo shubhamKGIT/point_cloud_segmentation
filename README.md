@@ -1,22 +1,22 @@
 # Project submission to SLAM winter school 2021 
-- Group Members
+## Group Members
     Shubham Kesharwani <shubham.ksrwn@gmail.com>
     Younès RAOUI <y.raoui@um5r.ac.ma>
 
 
-- Project Details 
+# Project Details 
 
-# Winter School Project 3
+## Winter School Project 3
 Learning Semantics of 3D Point Clouds.
 
-# Supervisor: 
+## Supervisor: 
 Tejaswi Digumarti, a postdoctoral research associate at the Australian Centre for Field Robotics
 (ACFR), University of Sydney. His research interests include semantic segmentation, mapping, 3D reconstruc-
 tion and point cloud analysis. His expertise is in developing these techniques for natural environments. link
-# Email: 
+Email: 
 tejaswi.digumarti@sydney.edu.au.
 
-# Problem description: 
+## Problem description: 
 Understanding what objects are present in a scene or what the constituent parts of an
 object are is useful for several robotics applications such as navigation, mapping and interaction. In this project
 we will work with 3D point clouds and look at two closely related tasks - object classi cation and semantic
@@ -24,20 +24,20 @@ segmentation. In object classi cation, we will try to infer the class of an ob
 that are unique to a class and in semantic segmentation, we will assign to every point of the cloud a label that
 represents the class it belongs to.
 
-# Purpose: 
+## Purpose: 
 This project aims to introduce deep learning based approaches to extracting features in 3D from
 point clouds. Point clouds are common outputs of SLAM pipelines and making sense of these reconstructions
 is the motivation behind this project. In the context of this workshop, this work  nds use in applications such
 as analysis of medical scans, object classi cation for grasping and manipulation, etc.
 
-# Main reference: 
+## Main reference: 
 Paper: Qi, Charles R., et al. "Pointnet: Deep learning on point sets for 3d classi cation and
 segmentation." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017. link
 Code: Skeleton code based on Tensor
 ow 2.0 is provided and can be found at
 https://github.com/tejaswid/winterschool project code 2021
 
-# Dataset: 
+## Dataset: 
 The dataset for this project is the ModelNet 10 dataset. This can be downloaded from here.
 Project step: The participants will be asked to complete the following exploration steps based on the provided
 code, including:
@@ -61,7 +61,8 @@ i.e. given a point cloud of a scene, the network has to label each point based o
 belongs to. For this task you will need to create a custom dataset using the same ModelNet10 dataset.
 Create a dataset where each input cloud consists of 2-3 objects. Try to make one of suitable size, with a
 range of orientations, placement and overlap of the objects. Report the performance on this task.
-References
+
+## References
 [1] Qi, Charles R., Hao Su, Kaichun Mo, and Leonidas J. Guibas. "Pointnet: Deep learning on point sets
 for 3d classi cation and segmentation." In Proceedings of the IEEE Conference on Computer Vision and
 Pattern Recognition (CVPR), 2017.
